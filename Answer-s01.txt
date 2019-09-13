@@ -1,0 +1,65 @@
+
+------- output data :-----------
+
+School data analysis:
+
+-----------------------------------
+
+---------------------------------------------
+Dimension of the data frame =  (36, 9)
+---------------------------------------------
+------------------------
+ Column names as follows :
+------------------------
+
+0 --> States/ Uts
+1 --> Board of Intermediate Secondary Education
+2 --> ISCED-3 - Pre-Degree Junior Colleges/ Higher Sec. Schools
+3 --> ISCED-3 - High/Post Basic Schools
+4 --> ISCED-2 - Middle / Sr Basic Schools
+5 --> ISCED-1 - Primary/Jr Basic Schools
+6 --> ISCED-1 - EGS Centers
+7 --> ISCED-0 - Pre-Primary/ Pre Basic Schools*
+8 --> ISCED-0 - Institutions imparting pre-school education under ICDS
+
+-----------------------------
+
+board
+Out[34]: 
+0      2
+1      0
+2      3
+3      3
+4      4
+5      1
+6      1
+7      1
+8      1
+9      1
+10     1
+11     2
+12     2
+13     2
+14     1
+15     2
+16     1
+17     1
+18     1
+19     2
+20     1
+21     3
+22     0
+23     1
+24     1
+25     1
+26     1
+27     4
+28     0
+29     0
+30     0
+31     0
+32     3
+33     0
+34     0
+35    47
+Name: Board of Intermediate Secondary Education, dtype: int64
