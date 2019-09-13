@@ -1,0 +1,15 @@
+# Question-07 : ISCED-0 - Pre-Primary/ Pre Basic Schools*
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import random
+
+df = pd.read_csv ('/home/jeet/Desktop/[A]-school.csv',encoding="cp1252")
+
+pre = df['ISCED-0 - Pre-Primary/ Pre Basic Schools*']
+
+plt.title("Question-07 : ISCED-0 - Pre-Primary/ Pre Basic Schools*")
+plt.xlabel("States sl. no. ---->")
+plt.ylabel("No. for ISCED-0 - Pre-Primary/ Pre Basic Schools* --->  ")
+plt.plot(pre)
+plt.show()
