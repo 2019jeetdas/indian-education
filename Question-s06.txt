@@ -1,0 +1,15 @@
+# Question-06 : ISCED-1 - EGS Centers
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import random
+
+df = pd.read_csv ('/home/jeet/Desktop/[A]-school.csv',encoding="cp1252")
+
+pre = df['ISCED-1 - EGS Centers']
+
+plt.title("Question-06 : ISCED-1 - EGS Centers")
+plt.xlabel("States sl. no. ---->")
+plt.ylabel("No. for ISCED-1 - EGS Centers --->  ")
+plt.plot(pre)
+plt.show()
