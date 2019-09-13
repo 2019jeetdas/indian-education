@@ -1,0 +1,15 @@
+# Question-02 : ISCED-3 - Pre-Degree Junior Colleges/ Higher Sec. Schools
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import random
+
+df = pd.read_csv ('/home/jeet/Desktop/[A]-school.csv',encoding="cp1252")
+
+pre = df['ISCED-3 - Pre-Degree Junior Colleges/ Higher Sec. Schools']
+
+plt.title("Question-02 : ISCED-3 - Pre-Degree Junior Colleges/ Higher Sec. Schools")
+plt.xlabel("States sl. no. ---->")
+plt.ylabel("No. for ISCED-3 - Pre-Degree Junior Colleges/ Higher Sec. Schools --->  ")
+plt.plot(pre)
+plt.show()
