@@ -1,0 +1,32 @@
+
+# Question -03 : Enrolment (1976-77) to (2015-16)
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import random
+
+df = pd.read_csv ('/home/jeet/Desktop/[B-2]-college-enrolment.csv',encoding="cp1252")
+
+enrol = df['Total Enrolment'].replace(np.nan,0)
+year1 = df['Year']
+year = np.arange(0,36)
+
+for i in range(0,36):
+     print([i],"-->",year1[i],"--- Enrolment : ",enrol[i])
+
+plt.title('[3] Total Enrolment Data (1976-77) to (2015-16) :')
+plt.xlabel("year sl. no --- >")
+plt.ylabel("Number --- >")
+
+plt.plot(enrol,
+            marker='X',
+            markersize=10,
+            linestyle='dashed',
+            label="[0] Total Enrolment")
+plt.legend()      
+plt.show()                  
+
+
+
+
