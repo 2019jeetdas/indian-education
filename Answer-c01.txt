@@ -1,0 +1,131 @@
+
+------- output data :-----------
+
+College data analysis:
+
+-----------------------------------
+
+---------------------------------------------
+Dimension of the data frame =  (36, 5)
+---------------------------------------------
+------------------------
+ Column names as follows :
+------------------------
+
+0 --> Year
+1 --> Universities
+2 --> Institutions Deemed to be Universities
+3 --> Colleges
+4 --> Total Enrolment
+
+-----------------------------
+
+0     1976-77
+1     1977-78
+2     1978-79
+3     1979-80
+4     1980-81
+5     1981-82
+6     1982-83
+7     1983-84
+8     1984-85
+9     1985-86
+10    1986-87
+11    1987-88
+12    1988-89
+13    1989-90
+14    1990-91
+15    1991-92
+16    1992-93
+17    1993-94
+18    1994-95
+19    1995-96
+20    1996-97
+21    1997-98
+22    1998-99
+23    1999-00
+24    2000-01
+25    2001-02
+26    2002-03
+27    2003-04
+28    2004-05
+29    2005-06
+30    2006-07
+31    2007-08
+32    2008-09
+33    2009-10
+34    2010-11
+35    2011-12
+Name: Year, dtype: object
+[0] --> 1976-77 --- Universities :  105
+[1] --> 1977-78 --- Universities :  108
+[2] --> 1978-79 --- Universities :  108
+[3] --> 1979-80 --- Universities :  112
+[4] --> 1980-81 --- Universities :  116
+[5] --> 1981-82 --- Universities :  120
+[6] --> 1982-83 --- Universities :  125
+[7] --> 1983-84 --- Universities :  126
+[8] --> 1984-85 --- Universities :  132
+[9] --> 1985-86 --- Universities :  136
+[10] --> 1986-87 --- Universities :  143
+[11] --> 1987-88 --- Universities :  144
+[12] --> 1988-89 --- Universities :  145
+[13] --> 1989-90 --- Universities :  149
+[14] --> 1990-91 --- Universities :  150
+[15] --> 1991-92 --- Universities :  155
+[16] --> 1992-93 --- Universities :  159
+[17] --> 1993-94 --- Universities :  163
+[18] --> 1994-95 --- Universities :  168
+[19] --> 1995-96 --- Universities :  171
+[20] --> 1996-97 --- Universities :  172
+[21] --> 1997-98 --- Universities :  182
+[22] --> 1998-99 --- Universities :  182
+[23] --> 1999-00 --- Universities :  189
+[24] --> 2000-01 --- Universities :  193
+[25] --> 2001-02 --- Universities :  196
+[26] --> 2002-03 --- Universities :  200
+[27] --> 2003-04 --- Universities :  213
+[28] --> 2004-05 --- Universities :  229
+[29] --> 2005-06 --- Universities :  241
+[30] --> 2006-07 --- Universities :  249
+[31] --> 2007-08 --- Universities :  272
+[32] --> 2008-09 --- Universities :  300
+[33] --> 2009-10 --- Universities :  363
+[34] --> 2010-11 --- Universities :  393
+[35] --> 2011-12 --- Universities :  445
+[0] --> 1976-77 --- Institutions Deemed to be Universities :  9
+[1] --> 1977-78 --- Institutions Deemed to be Universities :  9
+[2] --> 1978-79 --- Institutions Deemed to be Universities :  10
+[3] --> 1979-80 --- Institutions Deemed to be Universities :  10
+[4] --> 1980-81 --- Institutions Deemed to be Universities :  12
+[5] --> 1981-82 --- Institutions Deemed to be Universities :  12
+[6] --> 1982-83 --- Institutions Deemed to be Universities :  14
+[7] --> 1983-84 --- Institutions Deemed to be Universities :  14
+[8] --> 1984-85 --- Institutions Deemed to be Universities :  16
+[9] --> 1985-86 --- Institutions Deemed to be Universities :  17
+[10] --> 1986-87 --- Institutions Deemed to be Universities :  21
+[11] --> 1987-88 --- Institutions Deemed to be Universities :  22
+[12] --> 1988-89 --- Institutions Deemed to be Universities :  27
+[13] --> 1989-90 --- Institutions Deemed to be Universities :  28
+[14] --> 1990-91 --- Institutions Deemed to be Universities :  29
+[15] --> 1991-92 --- Institutions Deemed to be Universities :  31
+[16] --> 1992-93 --- Institutions Deemed to be Universities :  31
+[17] --> 1993-94 --- Institutions Deemed to be Universities :  34
+[18] --> 1994-95 --- Institutions Deemed to be Universities :  36
+[19] --> 1995-96 --- Institutions Deemed to be Universities :  37
+[20] --> 1996-97 --- Institutions Deemed to be Universities :  38
+[21] --> 1997-98 --- Institutions Deemed to be Universities :  39
+[22] --> 1998-99 --- Institutions Deemed to be Universities :  40
+[23] --> 1999-00 --- Institutions Deemed to be Universities :  42
+[24] --> 2000-01 --- Institutions Deemed to be Universities :  47
+[25] --> 2001-02 --- Institutions Deemed to be Universities :  52
+[26] --> 2002-03 --- Institutions Deemed to be Universities :  81
+[27] --> 2003-04 --- Institutions Deemed to be Universities :  89
+[28] --> 2004-05 --- Institutions Deemed to be Universities :  96
+[29] --> 2005-06 --- Institutions Deemed to be Universities :  101
+[30] --> 2006-07 --- Institutions Deemed to be Universities :  109
+[31] --> 2007-08 --- Institutions Deemed to be Universities :  103
+[32] --> 2008-09 --- Institutions Deemed to be Universities :  128
+[33] --> 2009-10 --- Institutions Deemed to be Universities :  130
+[34] --> 2010-11 --- Institutions Deemed to be Universities :  130
+[35] --> 2011-12 --- Institutions Deemed to be Universities :  129
