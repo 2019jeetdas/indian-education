@@ -1,0 +1,29 @@
+
+# Question -02 : colleges (1976-77) to (2015-16)
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import random
+
+df = pd.read_csv ('/home/jeet/Desktop/[B-2]-college-enrolment.csv',encoding="cp1252")
+
+col = df['Colleges'].replace(np.nan,0)
+year1 = df['Year']
+year = np.arange(0,36)
+
+for i in range(0,36):
+     print([i],"-->",year1[i],"--- no. of colleges : ",col[i])
+
+plt.title('Total college Data (1976-77) to (2015-16) :')
+plt.xlabel("year sl. no --- >")
+plt.ylabel("Number --- >")
+
+plt.plot(col,
+            marker='X',
+            markersize=10,
+            linestyle='dashed',
+            label="[0] No. of colleges")
+plt.legend()      
+plt.show()                  
+
