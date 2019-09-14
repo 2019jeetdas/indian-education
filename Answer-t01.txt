@@ -1,0 +1,46 @@
+
+------- output data :-----------
+
+School data analysis:
+
+-----------------------------------
+
+---------------------------------------------
+Dimension of the data frame =  (15, 14)
+---------------------------------------------
+------------------------
+ Column names as follows :
+------------------------
+
+0 --> Year
+1 --> Primary Schools - Total
+2 --> Primary Schools - Women
+3 --> Upper Primary Schools - Total
+4 --> Upper Primary Schools - Women
+5 --> Secondary Schools - Total
+6 --> Secondary Schools - Women
+7 --> Senior Secondary Schools - Total
+8 --> Senior Secondary Schools - Women
+9 --> Total Teacher - Total
+10 --> Total Teacher - Women
+11 --> UTD
+12 --> AC
+13 --> Total No. of Teacher in all Universities & Affiliated Colleges
+
+-----------------------------
+
+2001-02 ---> Total =  1928 ---> Women =  715.0
+2002-03 ---> Total =  1913 ---> Women =  746.0
+2003-04 ---> Total =  2097 ---> Women =  837.0
+2004-05 ---> Total =  2161 ---> Women =  842.0
+2005-06 ---> Total =  2184 ---> Women =  858.0
+2006-07 ---> Total =  2323 ---> Women =  920.0
+2007-08 ---> Total =  2315 ---> Women =  1027.0
+2008-09 ---> Total =  2229 ---> Women =  944.0
+2009-10 ---> Total =  2217 ---> Women =  1009.0
+2010-11 ---> Total =  2099 ---> Women =  905.0
+2011-12 ---> Total =  2254 ---> Women =  995.0
+2012-13 ---> Total =  7354 ---> Women =  0.0
+2013-14 ---> Total =  2684 ---> Women =  0.0
+2014-15 ---> Total =  2670 ---> Women =  0.0
+2015-16 ---> Total =  2606 ---> Women =  0.0
