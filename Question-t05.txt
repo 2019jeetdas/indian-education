@@ -1,0 +1,41 @@
+
+
+# Question - 5A : Total Teacher - Total
+# Question - 5B : Total Teacher - Women
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import random
+
+df = pd.read_csv ('/home/jeet/Desktop/[C]-teacher.csv',encoding="cp1252")
+
+# 0 --> Year
+year1 = df['Year']
+year = np.arange(0,15)
+
+total = df['Total Teacher - Total'].replace(np.nan,0)
+total_women = df['Total Teacher - Women'].replace(np.nan,0)
+
+for i in range(0,15):
+    print(year1[i],"---> Total = ",total[i],"---> Women = ",total_women[i])
+
+plt.title('[5] Number of Total Teachers (2000-01) to (2015-16) : ')
+plt.xlabel("year sl. no. --- >")
+plt.ylabel("Number of teachers --- >")
+    
+plt.plot(total,
+            marker=7,
+            markersize=10,
+            linestyle='dashed',
+            label="[1] Total Teachers")
+
+                   
+plt.plot(total_women,
+            marker='*',
+            markersize=10,
+            linestyle='dashed',
+            label="[2] Total teachers - Women")
+            
+plt.legend()
+plt.show()
