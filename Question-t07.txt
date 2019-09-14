@@ -1,0 +1,30 @@
+# Question - 7 : Total No. of Teacher in all Universities & Affiliated Colleges
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import random
+
+df = pd.read_csv ('/home/jeet/Desktop/[C]-teacher.csv',encoding="cp1252")
+
+# 0 --> Year
+year1 = df['Year']
+year = np.arange(0,15)
+
+college = df['Total No. of Teacher in all Universities & Affiliated Colleges'].replace(np.nan,0)
+
+for i in range(0,15):
+    print(year1[i],"--->",college[i])
+
+plt.title('[7] Total No. of Teacher recruitment in all Universities & Affiliated Colleges (2000-01) to (2015-16) : ')
+plt.xlabel("year sl. no. --- >")
+plt.ylabel("Number of teachers --- >")
+    
+plt.plot(college,
+            marker=7,
+            markersize=10,
+            linestyle='dashed',
+            label="[1] Total No. of Teacher in all Universities & Affiliated Colleges")
+ 
+plt.legend()
+plt.show()
