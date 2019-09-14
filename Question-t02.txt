@@ -1,0 +1,43 @@
+
+
+
+# Question - 2A : Upper Primary Schools - Total
+# Question - 2B : Upper Primary Schools - Women
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import random
+
+df = pd.read_csv ('/home/jeet/Desktop/[C]-teacher.csv',encoding="cp1252")
+
+# 0 --> Year
+year1 = df['Year']
+year = np.arange(0,15)
+
+upper_primary = df['Upper Primary Schools - Total'].replace(np.nan,0)
+upper_primary_women = df['Upper Primary Schools - Women'].replace(np.nan,0)
+
+for i in range(0,15):
+    print(year1[i],"---> Total = ",upper_primary[i],
+            "---> Women = ",upper_primary_women[i])
+
+plt.title('[2] Number of Upper Primary Teachers (2000-01) to (2015-16) : ')
+plt.xlabel("year sl. no. --- >")
+plt.ylabel("Number of teachers --- >")
+    
+plt.plot(upper_primary,
+            marker=7,
+            markersize=10,
+            linestyle='dashed',
+            label="[1] Upper Primary Schools - Total ")
+
+                   
+plt.plot(upper_primary_women,
+            marker='*',
+            markersize=10,
+            linestyle='dashed',
+            label="[2] Upper Primary Schools - Women")
+            
+plt.legend()
+plt.show()
