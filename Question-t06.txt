@@ -1,0 +1,42 @@
+
+
+
+# Question - 6A : UTD
+# Question - 6B: AC
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import random
+
+df = pd.read_csv ('/home/jeet/Desktop/[C]-teacher.csv',encoding="cp1252")
+
+# 0 --> Year
+year1 = df['Year']
+year = np.arange(0,15)
+
+utd = df['UTD'].replace(np.nan,0)
+ac = df['AC'].replace(np.nan,0)
+
+for i in range(0,15):
+    print(year1[i],"---> UTD = ",utd[i],"---> AC = ",ac[i])
+
+plt.title('[6] UTD & AC (2000-01) to (2015-16) : ')
+plt.xlabel("year sl. no. --- >")
+plt.ylabel("Number of teachers --- >")
+    
+plt.plot(utd,
+            marker=7,
+            markersize=10,
+            linestyle='dashed',
+            label="[1] UTD")
+
+                   
+plt.plot(ac,
+            marker='*',
+            markersize=10,
+            linestyle='dashed',
+            label="[2] AC")
+            
+plt.legend()
+plt.show()
