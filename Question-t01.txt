@@ -1,0 +1,64 @@
+# -*- coding: utf-8 -*-
+#-----(3) teacher data analysis -----
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import random
+
+df = pd.read_csv ('/home/jeet/Desktop/[C]-teacher.csv',encoding="cp1252")
+
+print("\n------- output data :-----------\n")
+print("School data analysis:")
+print("\n-----------------------------------\n")
+
+# Question – A : get row and column numbers 
+
+print('---------------------------------------------')
+print("Dimension of the data frame = ",df.shape)
+print('---------------------------------------------')
+
+# Question – B : print column names :
+
+print('------------------------\n Column names as follows :')
+print('------------------------\n')
+count = 0
+for col in df.columns: 
+        print(count,"-->",col)
+        count = count+1
+print("\n-----------------------------\n")
+
+# 0 --> Year
+year1 = df['Year']
+year = np.arange(0,15)
+
+
+# Question - 1A : Primary Schools - Total
+# Question - 1B :Primary Schools - Women
+
+primary = df['Primary Schools - Total'].replace(np.nan,0)
+primary_women = df['Primary Schools - Women'].replace(np.nan,0)
+
+for i in range(0,15):
+    print(year1[i],"---> Total = ",primary[i],
+            "---> Women = ",primary_women[i])
+            
+plt.title('[1] Number of Primary Teachers (2000-01) to (2015-16) : ')
+plt.xlabel("year sl. no.--- >")
+plt.ylabel("Number of teachers --- >")
+    
+plt.plot(primary,
+            marker=7,
+            markersize=10,
+            linestyle='dashed',
+            label="[1] Primary Schools - Total ")
+
+                   
+plt.plot(primary_women,
+            marker='*',
+            markersize=10,
+            linestyle='dashed',
+            label="[2] Primary Schools - Women")
+            
+plt.legend()
+plt.show()
